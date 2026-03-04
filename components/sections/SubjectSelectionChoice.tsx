@@ -116,7 +116,10 @@ export function SubjectSelectionChoice() {
               {/* Subject Cards */}
               <div className="flex gap-3 flex-wrap">
                 {subjects.map((subject) => (
-                  <Link href={`${pathname}/${subject}`} key={subject}>
+                  <Link
+                    href={`${pathname}/${subject.toLowerCase()}`}
+                    key={subject}
+                  >
                     <button
                       key={subject}
                       className={`
