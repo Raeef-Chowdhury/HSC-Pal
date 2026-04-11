@@ -1,0 +1,89 @@
+{
+  "moduleId": "chem-mod-4",
+  "moduleNumber": 4,
+  "name": "Drivers of Reaction",
+  "year": 11,
+  "sections": [
+    {
+      "sectionId": "chem-4.1",
+      "inquiryQuestion": "What energy changes occur in chemical reactions?",
+      "title": "Energy Changes in Chemical Reactions",
+      "dotpoints": [
+        {
+          "id": "chem-4.1.1",
+          "content": "Enthalpy Change, Activation Energy, Catalysts & Temperature",
+          "order": 1
+        },
+        {
+          "id": "chem-4.1.2",
+          "content": "Enthalpy Change (ΔH) in Ionic Compound Dissolution",
+          "order": 2
+        },
+        {
+          "id": "chem-4.1.3",
+          "content": "ΔH of Combustion and Neutralisation, Calorimetry",
+          "order": 3
+        },
+        {
+          "id": "chem-4.1.4",
+          "content": "∆H Calculation of Combustion vs Neutralisation vs Dissolution of Ionic Compounds (REVISION)",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-4.2",
+      "inquiryQuestion": "How much energy does it take to break bonds, and how much is released when bonds are formed?",
+      "title": "Enthalpy and Hess's Law",
+      "dotpoints": [
+        {
+          "id": "chem-4.2.1",
+          "content": "Bond Energy and Enthalpy Change",
+          "order": 1
+        },
+        {
+          "id": "chem-4.2.2",
+          "content": "Enthalpy of Formation and Bond Energy",
+          "order": 2
+        },
+        {
+          "id": "chem-4.2.3",
+          "content": "Calculating Enthalpy Change using Enthalpy of Formation",
+          "order": 3
+        },
+        {
+          "id": "chem-4.2.4",
+          "content": "Hess's Law",
+          "order": 4
+        },
+        {
+          "id": "chem-4.2.5",
+          "content": "Hess's Law in Respiration and Photosynthesis",
+          "order": 5
+        },
+        {
+          "id": "chem-4.2.6",
+          "content": "Hess's Law and Heat of Combustion",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-4.3",
+      "inquiryQuestion": "How can enthalpy and entropy be used to explain reaction spontaneity?",
+      "title": "Entropy and Gibbs Free Energy",
+      "dotpoints": [
+        {
+          "id": "chem-4.3.1",
+          "content": "Entropy (S)",
+          "order": 1
+        },
+        {
+          "id": "chem-4.3.2",
+          "content": "Gibbs Free Energy (G) and Spontaneity of Reaction",
+          "order": 2
+        }
+      ]
+    }
+  ]
+}

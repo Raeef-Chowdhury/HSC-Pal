@@ -1,0 +1,126 @@
+{
+  "moduleId": "chem-mod-2",
+  "moduleNumber": 2,
+  "name": "Introduction to Quantitative Chemistry",
+  "year": 11,
+  "sections": [
+    {
+      "sectionId": "chem-2.1",
+      "inquiryQuestion": "What happens in chemical reactions?",
+      "title": "Chemical Reactions and Stoichiometry",
+      "dotpoints": [
+        {
+          "id": "chem-2.1.1",
+          "content": "Stoichiometry",
+          "order": 1
+        },
+        {
+          "id": "chem-2.1.2",
+          "content": "How to Balance Chemical Equations",
+          "order": 2
+        },
+        {
+          "id": "chem-2.1.3",
+          "content": "Law of Conservation of Mass and Definite Composition",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-2.2",
+      "inquiryQuestion": "How are measurements made in chemistry",
+      "title": "Mole Concept",
+      "dotpoints": [
+        {
+          "id": "chem-2.2.1",
+          "content": "Moles & Molar Mass",
+          "order": 1
+        },
+        {
+          "id": "chem-2.2.2",
+          "content": "Moles & Molar Mass Calculations in Chemical Reactions",
+          "order": 2
+        },
+        {
+          "id": "chem-2.2.3",
+          "content": "Harder Moles & Molar Mass Calculations",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-2.3",
+      "inquiryQuestion": "How are chemicals in solutions measured?",
+      "title": "Concentration and Molarity",
+      "dotpoints": [
+        {
+          "id": "chem-2.3.1",
+          "content": "Concentration",
+          "order": 1
+        },
+        {
+          "id": "chem-2.3.2",
+          "content": "Dilution",
+          "order": 2
+        },
+        {
+          "id": "chem-2.3.3",
+          "content": "Making a Standard Solution",
+          "order": 3
+        },
+        {
+          "id": "chem-2.3.4",
+          "content": "Concentration & Volume Calculations in Chemical Reactions",
+          "order": 4
+        },
+        {
+          "id": "chem-2.3.5",
+          "content": "Limiting Reagents",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-2.4",
+      "inquiryQuestion": "How does the Ideal Gas Law relate to all the other Gas Laws?",
+      "title": "Gas Laws",
+      "dotpoints": [
+        {
+          "id": "chem-2.4.1",
+          "content": "Properties of Gases",
+          "order": 1
+        },
+        {
+          "id": "chem-2.4.2",
+          "content": "Introduction to Gas Laws",
+          "order": 2
+        },
+        {
+          "id": "chem-2.4.3",
+          "content": "Ideal Gas Law & Equation",
+          "order": 3
+        },
+        {
+          "id": "chem-2.4.4",
+          "content": "Boyle's Law",
+          "order": 4
+        },
+        {
+          "id": "chem-2.4.5",
+          "content": "Charles's Law",
+          "order": 5
+        },
+        {
+          "id": "chem-2.4.6",
+          "content": "Avogadro's Law",
+          "order": 6
+        },
+        {
+          "id": "chem-2.4.7",
+          "content": "Gay-Lussac's Law",
+          "order": 7
+        }
+      ]
+    }
+  ]
+}

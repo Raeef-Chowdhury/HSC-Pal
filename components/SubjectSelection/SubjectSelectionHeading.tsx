@@ -11,7 +11,7 @@ export function SubjectSelectionHeading() {
         <div className="bg-primary/10 flex items-center gap-[0.2rem] rounded-lg p-1">
           <Link href="/prelim">
             <button
-              className={`px-5 py-2 text-md ${pathname === "/prelim" ? "bg-primary-light text-primary" : "transparent text-white/80"} uppercase hover:cursor-pointer tracking-[0.2em] font-medium rounded-md transition-all duration-300 focus:outline-none`}
+              className={`px-5 py-2 text-md ${pathname === "/prelim" ? "bg-primary-light  text-primary" : "transparent text-white/80"} uppercase hover:cursor-pointer tracking-[0.2em] font-medium rounded-md transition-all duration-300 focus:outline-none`}
             >
               Preliminary
             </button>

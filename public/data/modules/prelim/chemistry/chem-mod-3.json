@@ -1,0 +1,89 @@
+{
+  "moduleId": "chem-mod-3",
+  "moduleNumber": 3,
+  "name": "Reactive Chemistry",
+  "year": 11,
+  "sections": [
+    {
+      "sectionId": "chem-3.1",
+      "inquiryQuestion": "What are the products of a chemical reaction?",
+      "title": "Chemical Reactions",
+      "dotpoints": [
+        {
+          "id": "chem-3.1.1",
+          "content": "Physical and Chemical Change",
+          "order": 1
+        },
+        {
+          "id": "chem-3.1.2",
+          "content": "Synthesis and Decomposition",
+          "order": 2
+        },
+        {
+          "id": "chem-3.1.3",
+          "content": "Precipitation and Solubility Rules",
+          "order": 3
+        },
+        {
+          "id": "chem-3.1.4",
+          "content": "Combustion Reactions",
+          "order": 4
+        },
+        {
+          "id": "chem-3.1.5",
+          "content": "Acid-base Reactions",
+          "order": 5
+        },
+        {
+          "id": "chem-3.1.6",
+          "content": "Indigenous Detoxification Methods",
+          "order": 6
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-3.2",
+      "inquiryQuestion": "How are the reactivity of various metals predicted?",
+      "title": "Predicting Reactions of Metals",
+      "dotpoints": [
+        {
+          "id": "chem-3.2.1",
+          "content": "Chemical Reactions Involving Metals",
+          "order": 1
+        },
+        {
+          "id": "chem-3.2.2",
+          "content": "Redox Reactions",
+          "order": 2
+        },
+        {
+          "id": "chem-3.2.3",
+          "content": "Oxidation Numbers and States",
+          "order": 3
+        },
+        {
+          "id": "chem-3.2.4",
+          "content": "Galvanic Cells",
+          "order": 4
+        },
+        {
+          "id": "chem-3.2.5",
+          "content": "Galvanic Cell: Inactive (Inert) Electrodes",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-3.3",
+      "inquiryQuestion": "What affects the rate of a chemical reaction?",
+      "title": "Rates of Reactions",
+      "dotpoints": [
+        {
+          "id": "chem-3.3.1",
+          "content": "Reaction Rate and Collision Theory",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

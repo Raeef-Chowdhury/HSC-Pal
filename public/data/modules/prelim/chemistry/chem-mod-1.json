@@ -1,0 +1,161 @@
+{
+  "moduleId": "chem-mod-1",
+  "moduleNumber": 1,
+  "name": "Properties and Structure of Matter",
+  "year": 11,
+  "sections": [
+    {
+      "sectionId": "chem-1.1",
+      "inquiryQuestion": "How do the properties of substances help us to classify and separate them?",
+      "title": "Properties of Matter",
+      "dotpoints": [
+        {
+          "id": "chem-1.1.1",
+          "content": "Types of Matter",
+          "order": 1
+        },
+        {
+          "id": "chem-1.1.2",
+          "content": "Physical Properties of Elements",
+          "order": 2
+        },
+        {
+          "id": "chem-1.1.3",
+          "content": "Homogenous and Heterogenous Substances",
+          "order": 3
+        },
+        {
+          "id": "chem-1.1.4",
+          "content": "Separation Techniques",
+          "order": 4
+        },
+        {
+          "id": "chem-1.1.5",
+          "content": "Percentage Composition",
+          "order": 5
+        },
+        {
+          "id": "chem-1.1.6",
+          "content": "Nomenclature of Inorganic Substances",
+          "order": 6
+        },
+        {
+          "id": "chem-1.1.7",
+          "content": "Polyatomic Ions",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-1.2",
+      "inquiryQuestion": "Why are atoms of elements different from one another?",
+      "title": "Atomic Structure and Atomic Mass",
+      "dotpoints": [
+        {
+          "id": "chem-1.2.1",
+          "content": "Structure of the Atom, Atomic Symbols and Isotope",
+          "order": 1
+        },
+        {
+          "id": "chem-1.2.2",
+          "content": "Relative Mass and Calculating Relative Mass",
+          "order": 2
+        },
+        {
+          "id": "chem-1.2.3",
+          "content": "Nuclear Chemistry: Radioisotopes and Radiation",
+          "order": 3
+        },
+        {
+          "id": "chem-1.2.4",
+          "content": "Bohr Model and Electron Configuration",
+          "order": 4
+        },
+        {
+          "id": "chem-1.2.5",
+          "content": "Atomic Emission Spectroscopy (AES) and Flame Test",
+          "order": 5
+        },
+        {
+          "id": "chem-1.2.6",
+          "content": "Schrödinger Model and SPDF Notation & Electron Configuration",
+          "order": 6
+        },
+        {
+          "id": "chem-1.2.7",
+          "content": "SPDF Electron Configuration of Transition Metals",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-1.3",
+      "inquiryQuestion": "Are there patterns in the properties of elements?",
+      "title": "Periodicity",
+      "dotpoints": [
+        {
+          "id": "chem-1.3.1",
+          "content": "Introduction to the Periodic Table and Atomic & Ionic Radius",
+          "order": 1
+        },
+        {
+          "id": "chem-1.3.2",
+          "content": "Physical Properties of Elements",
+          "order": 2
+        },
+        {
+          "id": "chem-1.3.3",
+          "content": "Electronegativity and Ionisation Energy",
+          "order": 3
+        },
+        {
+          "id": "chem-1.3.4",
+          "content": "Reactivity with Water",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "sectionId": "chem-1.4",
+      "inquiryQuestion": "What binds atoms together in elements and compounds?",
+      "title": "Bonding",
+      "dotpoints": [
+        {
+          "id": "chem-1.4.1",
+          "content": "Structure, Properties and Nomenclature of Ionic Compounds",
+          "order": 1
+        },
+        {
+          "id": "chem-1.4.2",
+          "content": "Structure, Properties and Nomenclature of Covalent Substances",
+          "order": 2
+        },
+        {
+          "id": "chem-1.4.3",
+          "content": "Allotropes",
+          "order": 3
+        },
+        {
+          "id": "chem-1.4.4",
+          "content": "Structure and Properties of Metals",
+          "order": 4
+        },
+        {
+          "id": "chem-1.4.5",
+          "content": "Lewis Dot Diagram/Structure",
+          "order": 5
+        },
+        {
+          "id": "chem-1.4.6",
+          "content": "Molecular Geometry & VSEPR Theory",
+          "order": 6
+        },
+        {
+          "id": "chem-1.4.7",
+          "content": "Intramolecular Bonds & Intermolecular Forces",
+          "order": 7
+        }
+      ]
+    }
+  ]
+}
