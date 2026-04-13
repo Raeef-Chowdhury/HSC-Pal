@@ -1,61 +1,79 @@
 "use client";
-export interface ModuleDotPoints {
-  sectionId: string;
-  inquiryQuestion: string;
-  title: string;
-  dotpoints: string[];
-}
-export interface Module {
-  moduleId: string;
-  moduleNumber: number;
-  name: string;
-  sections: ModuleDotPoints[];
-  year: number;
-}
-import { Checkbox, CheckboxGroup, Label } from "@heroui/react";
-import { useState } from "react";
 
-export default function ModuleCheckbox({ module: module }: { module: Module }) {
-  const [selected, setSelected] = useState([""]);
-  const allOptions = module.sections;
-  console.log(module);
+import { Accordion, Checkbox, CheckboxGroup, Label } from "@heroui/react";
+
+export default function ModuleCheckbox({ module, selected, setSelected }) {
+  const sectionOptions = module.sections.map((s) => s.title);
+  // Include the module name itself as a selectable value
+  const allOptions = [module.name, ...sectionOptions];
+
+  const isAllSelected = allOptions.every((o) => selected.includes(o));
+  const isPartialSelected =
+    !isAllSelected && allOptions.some((o) => selected.includes(o));
+
   return (
-    <div>
-      <Checkbox
-        isIndeterminate={
-          selected.length > 0 && selected.length < allOptions.length
-        }
-        isSelected={selected.length === allOptions.length}
-        name="select-all"
-        onChange={(isSelected: boolean) => {
-          setSelected(
-            isSelected
-              ? module.sections.map((section: ModuleDotPoints) => section.title)
-              : [],
-          );
-        }}
-      >
-        <Checkbox.Control>
-          <Checkbox.Indicator />
-        </Checkbox.Control>
-        <Checkbox.Content>
-          <Label>{module.name}</Label>
-        </Checkbox.Content>
-      </Checkbox>
-      <div className="ml-6 flex flex-col gap-2">
-        <CheckboxGroup value={selected} onChange={setSelected}>
-          {module.sections.map((section: ModuleDotPoints, index: number) => (
-            <Checkbox value={section.title} key={index}>
+    <Accordion className="w-full">
+      <Accordion.Item value={module.name}>
+        <Accordion.Heading>
+          <Accordion.Trigger>
+            <Checkbox
+              isIndeterminate={isPartialSelected}
+              isSelected={isAllSelected}
+              onChange={(isChecked: boolean) => {
+                setSelected((prev: string[]) =>
+                  isChecked
+                    ? [...new Set([...prev, ...allOptions])]
+                    : prev.filter((s) => !allOptions.includes(s)),
+                );
+              }}
+            >
               <Checkbox.Control>
                 <Checkbox.Indicator />
               </Checkbox.Control>
               <Checkbox.Content>
-                <Label>{section.title}</Label>
+                <Label className="text-[1.6rem] font-bold text-accent">
+                  {module.name}
+                </Label>
               </Checkbox.Content>
             </Checkbox>
-          ))}
-        </CheckboxGroup>
-      </div>
-    </div>
+            <Accordion.Indicator />
+          </Accordion.Trigger>
+        </Accordion.Heading>
+
+        <Accordion.Panel>
+          <div className="ml-6 flex flex-col gap-2 mt-2">
+            <CheckboxGroup
+              value={selected}
+              onChange={(vals: string[]) => {
+                // When sections change, also sync the module name:
+                // add module name if all sections selected, remove if any deselected
+                const allSectionsSelected = sectionOptions.every((s) =>
+                  vals.includes(s),
+                );
+                setSelected((prev: string[]) => {
+                  const withoutThisModule = prev.filter(
+                    (s) => !allOptions.includes(s),
+                  );
+                  return allSectionsSelected
+                    ? [...withoutThisModule, module.name, ...vals]
+                    : [...withoutThisModule, ...vals];
+                });
+              }}
+            >
+              {module.sections.map((section, i) => (
+                <Checkbox key={i} value={section.title}>
+                  <Checkbox.Control>
+                    <Checkbox.Indicator />
+                  </Checkbox.Control>
+                  <Checkbox.Content>
+                    <Label className="text-xs">{section.title}</Label>
+                  </Checkbox.Content>
+                </Checkbox>
+              ))}
+            </CheckboxGroup>
+          </div>
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion>
   );
 }

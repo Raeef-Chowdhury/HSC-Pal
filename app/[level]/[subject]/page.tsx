@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-import ModuleChecbox from "@/components/QuestionGeneratorScreen/ModuleCheckbox";
+import TopicSelector from "@/components/QuestionGeneratorScreen/TopicSelector";
 export interface SubjectPageProps {
   params: Promise<{
     level: string;
@@ -37,15 +37,11 @@ export default async function SubjectPage({ params }: SubjectPageProps) {
   const formattedSubject = subject.replaceAll("%20", " ");
   console.log(modules);
   return (
-    <div>
+    <>
       <h1 className="text-center mt-[1.8rem] text-gold/80 text-[2.4rem] uppercase leading-[-0.05rem] font-semibold ">
         {level} <span className="text-gold/40">⋅</span> {formattedSubject}
       </h1>
-      {modules.map((module, index) => (
-        <div key={index}>
-          <ModuleChecbox module={module} />
-        </div>
-      ))}
-    </div>
+      <TopicSelector modules={modules} />
+    </>
   );
 }
