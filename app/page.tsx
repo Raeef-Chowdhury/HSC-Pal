@@ -1,4 +1,10 @@
 import { Dashboard } from "@/components/sections/Dashboard";
+import { Sidebar } from "@/components/layout/sidebar";
 export default function Home() {
-  return <Dashboard />;
+  return (
+    <>
+      <Sidebar />
+      <Dashboard />
+    </>
+  );
 }
