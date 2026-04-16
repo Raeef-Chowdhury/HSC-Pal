@@ -4,7 +4,7 @@ const BtnConfig = [
   { text: "Prelim - Year 11", link: "/prelim" },
   { text: "HSC - Year 12", link: "/hsc" },
 ];
-export function LevelSelect() {
+export function Dashboard() {
   return (
     <div className="flex min-h-screen justify-center font-sans bg-background text-foreground">
       <div className="items-center  flex flex-col">

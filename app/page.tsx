@@ -1,4 +1,4 @@
-import { LevelSelect } from "@/components/sections/LevelSelect";
+import { Dashboard } from "@/components/sections/Dashboard";
 export default function Home() {
-  return <LevelSelect />;
+  return <Dashboard />;
 }
