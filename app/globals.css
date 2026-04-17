@@ -20,7 +20,7 @@
   --background-subtle: #141b3d;
   --foreground: #f1f5f9;
   --foreground-muted: #94a3b8;
-
+  --color-highlight: #d97706;
   --color-primary: #14b8a6;
   --color-primary-dark: #0d9488;
   --color-primary-hover: #0f766e;
@@ -71,6 +71,8 @@
 @theme inline {
   --color-primary: var(--color-primary);
   --color-primary-hover: var(--color-primary-hover);
+  --color-highlight: #d97706;
+
   --color-primary-light: var(--color-primary-light);
   --color-primary-dark: var(--color-primary-dark);
   --color-secondary: var(--color-secondary);

@@ -1,12 +1,13 @@
 "use client";
-import { ChevronsLeft } from "lucide-react";
 import { SidebarItemsData } from "@/public/data/Sidebar/SidebarItems";
 import { SidebarItems } from "@/components/Recycled/SidebarItems";
 export function Sidebar() {
   return (
     <div className="fixed left-0 top-0 z-50 flex h-screen w-[210px] flex-col bg-bg border-r border-secondary">
       <div className="flex h-16 items-center justify-center text-text/60 border-b border-secondary">
-        <ChevronsLeft size={32} className="text-primary" />
+        <h1 className="text-[1.8rem] text-primary tracking-widest font-semibold">
+          HSC PAL
+        </h1>
       </div>
 
       {/* Navigation */}
